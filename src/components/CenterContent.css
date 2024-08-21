@@ -1,0 +1,11 @@
+@keyframes blink {
+    0% { border-color: #00f; }
+    50% { border-color: #0f0; }
+    100% { border-color: rgb(209, 199, 154); }
+    50% { border-color: rgb(212, 56, 124); }
+  }
+  
+  .animate-blink {
+    animation: blink 1s infinite;
+  }
+  
